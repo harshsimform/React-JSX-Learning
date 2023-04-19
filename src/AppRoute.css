@@ -1,0 +1,22 @@
+.active {
+  color: rgb(75, 100, 199);
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar > li {
+  list-style: none;
+}
+
+h1 {
+  width: 70%;
+  margin: auto;
+}
