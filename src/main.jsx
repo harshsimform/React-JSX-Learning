@@ -10,6 +10,9 @@ import FuncComp5 from "./FuncComp/FuncComp5";
 import FuncComp6 from "./FuncComp/FuncComp6";
 import Home from "./Routing/Navbar";
 import AppRoute from "./AppRoute";
+import CompCallback from "./useCallback/CompCallback";
+import FetchAPIApp from "./FetchAPIApp";
+import RefExample from "./useRefExample/RefExample";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -22,6 +25,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FuncComp5 /> */}
     {/* <FuncComp6 /> */}
     {/* <Home /> */}
-    <AppRoute />
+    {/* <AppRoute /> */}
+    {/* <CompCallback /> */}
+    {/* <FetchAPIApp /> */}
+    <RefExample />
   </React.StrictMode>
 );
