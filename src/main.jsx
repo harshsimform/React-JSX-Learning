@@ -13,6 +13,8 @@ import AppRoute from "./AppRoute";
 import CompCallback from "./useCallback/CompCallback";
 import FetchAPIApp from "./FetchAPIApp";
 import RefExample from "./useRefExample/RefExample";
+import MyApp from "./PracticalTwo/MyApp";
+import EventBinding from "./ClassComp/EventBinding";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -28,6 +30,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <AppRoute /> */}
     {/* <CompCallback /> */}
     {/* <FetchAPIApp /> */}
-    <RefExample />
+    {/* <RefExample /> */}
+    {/* <MyApp /> */}
+    <EventBinding />
   </React.StrictMode>
 );
