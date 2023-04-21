@@ -15,6 +15,15 @@ import FetchAPIApp from "./FetchAPIApp";
 import RefExample from "./useRefExample/RefExample";
 import MyApp from "./PracticalTwo/MyApp";
 import EventBinding from "./ClassComp/EventBinding";
+import Pract1 from "./FuncComp/practice/Pract1";
+import Pract2 from "./FuncComp/practice/Pract2";
+import MethodasProps from "./ClassComp/MethodasProps";
+import MutateState from "./mutateState/MutateState";
+import DocTitleOne from "./customHooks/DocTitleOne";
+import DocTitleTwo from "./customHooks/DocTitleTwo";
+import CounterOne from "./customHooks2/CounterOne";
+import CounterTwo from "./customHooks2/CounterTwo";
+import UserForm from "./cutomHooks3/UserForm";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -32,6 +41,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FetchAPIApp /> */}
     {/* <RefExample /> */}
     {/* <MyApp /> */}
-    <EventBinding />
+    {/* <EventBinding /> */}
+    {/* <Pract1 /> */}
+    {/* <Pract2 /> */}
+    {/* <MethodasProps /> */}
+    {/* <MutateState /> */}
+    {/* <DocTitleOne /> */}
+    {/* <DocTitleTwo /> */}
+    {/* <CounterOne /> */}
+    {/* <CounterTwo />  */}
+    <UserForm />
   </React.StrictMode>
 );
