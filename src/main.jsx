@@ -24,6 +24,8 @@ import DocTitleTwo from "./customHooks/DocTitleTwo";
 import CounterOne from "./customHooks2/CounterOne";
 import CounterTwo from "./customHooks2/CounterTwo";
 import UserForm from "./cutomHooks3/UserForm";
+import CustomHook4 from "./customHooks4/CustomHook4";
+import TestApp3 from "./PerformanceOptimization/TestApp3";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -50,6 +52,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <DocTitleTwo /> */}
     {/* <CounterOne /> */}
     {/* <CounterTwo />  */}
-    <UserForm />
+    {/* <UserForm /> */}
+    {/* <CustomHook4 /> */}
+    <TestApp3 />
   </React.StrictMode>
 );
